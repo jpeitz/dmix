@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Unused strings, commented for possible for later use.
+
+    <!--
+    Unused strings, commented for possible for later use.
     <string name="aboutDescription">About MPDroid</string>
     <string name="albumGridWifiUnavailable">Wi-Fi unavailable, so no new artwork will be retrieved</string>
     <string name="configurationName">Configuration Name</string>
@@ -195,18 +197,15 @@
     <string name="enableRating">Show rating bar</string>
     <string name="startStreaming">Start Streaming</string>
     <string name="stopStreaming">Stop Streaming</string>
-
     <string name="behavior">Phone Behavior</string>
     <string name="pauseOnPhoneStateChange">Pause playback</string>
     <string name="pauseOnPhoneStateChangeDescription">Pause playback when in a call</string>
     <string name="playOnPhoneStateChange">Resume playback</string>
     <string name="playOnPhoneStateChangeDescription">Resume playback when a call ends</string>
-
     <string name="libraryTabsSettings">Library tabs settings</string>
     <string name="libraryTabsSettingsDescription">Select which tabs are visible and how they are ordered</string>
     <string name="visibleTabs">Visible Tabs</string>
     <string name="hiddenTabs">Hidden Tabs</string>
-
     <string name="coverArtTitle">Cover art settings</string>
     <string name="coverArtDescription">Change how cover art is downloaded and stored</string>
     <string name="enableLocalCoverCache">Cache cover art</string>
@@ -215,10 +214,8 @@
     <string name="clearLocalCoverCacheDescription">Free the storage space used by the cover art cache</string>
     <string name="clearLocalCoverCachePrompt">Delete all cached cover art ?</string>
     <string name="updatingLocalAlbumCacheNote">Updating local album cache</string>
-
     <string name="enableAlbumArtLibrary">Album cover art listing in library</string>
     <string name="enableAlbumArtLibraryDescription">Use large cover art tiles for the albums listing in the library. This feature is experimental! You may experience lag and/or crashes. (Requires cache cover art)</string>
-
     <string name="goToAlbum">Go to album</string>
     <string name="goToArtist">Go to artist</string>
     <string name="goToAlbumArtist">Go to album artist</string>
@@ -227,7 +224,6 @@
     <string name="goToCurrent">Go to current song</string>
     <string name="otherCover">Download another image</string>
     <string name="resetCover">Reset image</string>
-
     <string name="actionSongSelected">1 song selected</string>
     <string name="actionSongsSelected">%s songs selected</string>
     <string name="searchQueue">Search play queue …</string>
@@ -246,19 +242,15 @@
     <string name="gracenoteClientIdDescription">GraceNote Client ID (XXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)</string>
     <string name="drawer_open">Show drawer</string>
     <string name="drawer_close">Close drawer</string>
-
     <string name="nowPlayingSettingsTitle">Now Playing settings</string>
     <string name="enableSmallSeekbars">Use small seekbars</string>
     <string name="clearSearchHistory">Clear search history</string>
     <string name="streamSaved">Stream saved</string>
-
     <string name="about_authors">Authors</string>
     <string name="about_libraries">Libraries</string>
     <string name="separatorDescription">Separator</string>
     <string name="notificationIconDescription">Cover art</string>
-
     <string name="locale_select_action">Pick the action to run</string>
-
     <string name="showNotification">Notification</string>
     <string name="closeNotification">Close notification</string>
     <string name="togglePlayback">Toggle playback</string>
@@ -266,12 +258,10 @@
     <string name="rewind">Rewind</string>
     <string name="mute">Mute</string>
     <string name="setVolume">Set volume</string>
-
     <string name="reset">Reset</string>
     <string name="simpleMode">Simple mode</string>
     <string name="simpleModeDescription">Behave like a standard Android media player for play queue management</string>
     <string name="addToQueue">Add to queue</string>
-
     <string name="both">Both</string>
     <string name="albumartist">Album artist</string>
     <string name="artist">Artist</string>
@@ -289,13 +279,17 @@
     <string name="streamSourceError">Failed to set the stream source: %1$s.</string>
     <!-- End StreamHandler Specific Strings -->
 
+
     <!-- Begin MediaPlayer Error Strings -->
     <string name="mediaPlayerErrorUnknown">Unspecified media player error.</string>
     <string name="mediaPlayerErrorServerDied">Media server died.</string>
-
     <string name="mediaPlayerErrorIO">Network related operation error.</string>
     <string name="mediaPlayerErrorMalformed">Stream is not conforming to the related coding standard.</string>
     <string name="mediaPlayerErrorTimedOut">Operation timed out.</string>
     <string name="mediaPlayerErrorUnsupported">Media framework does not support stream codec.</string>
     <!-- End MediaPlayer Error Strings -->
+    <string name="title_activity_now_playing">NowPlayingActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
 </resources>
