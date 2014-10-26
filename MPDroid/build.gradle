@@ -25,7 +25,7 @@ android {
     buildToolsVersion "21.0.2"
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 21
         versionCode 49
         versionName "1.07 " + gitShortHash()
