@@ -144,7 +144,6 @@ public class MainMenuActivity extends MPDroidFragmentActivity implements OnNavig
     }
 
     private ActionBarDrawerToggle initializeDrawerToggle() {
-        final int drawerImageRes;
 
         // Set up the action bar.
         final ActionBar actionBar = getActionBar();
@@ -281,11 +280,7 @@ public class MainMenuActivity extends MPDroidFragmentActivity implements OnNavig
 
         mApp.setupServiceBinder();
 
-        if (mApp.isTabletUiEnabled()) {
-            setContentView(R.layout.main_activity_nagvigation_tablet);
-        } else {
-            setContentView(R.layout.main_activity_nagvigation);
-        }
+        setContentView(R.layout.main_activity_nagvigation);
 
         mTextView = initializeTextView();
 
