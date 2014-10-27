@@ -16,27 +16,20 @@
 
 package com.namelessdev.mpdroid;
 
-import com.namelessdev.mpdroid.fragments.NowPlayingFragment;
 import com.namelessdev.mpdroid.helpers.MPDControl;
 
 import org.a0z.mpd.MPD;
 import org.a0z.mpd.MPDStatus;
-
-import android.app.Activity;
-import android.app.ActionBar;
-import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.transition.Explode;
+import android.transition.Fade;
 import android.transition.Transition;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.os.Build;
 
 
 public class NowPlayingActivity extends MPDroidActivities.MPDroidFragmentActivity {
@@ -54,7 +47,7 @@ public class NowPlayingActivity extends MPDroidActivities.MPDroidFragmentActivit
         super.onCreate(savedInstanceState);
 
         getWindow().requestFeature(android.view.Window.FEATURE_CONTENT_TRANSITIONS);
-        Transition ts = new Explode();  //Slide(); //Explode();
+        Transition ts = new Fade();  //Slide(); //Explode();
         getWindow().setEnterTransition(ts);
         getWindow().setExitTransition(ts);
 
